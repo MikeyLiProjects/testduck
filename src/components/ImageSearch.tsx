@@ -112,7 +112,7 @@ export default function ImageSearch() {
                 </div>
             )}
 
-            {!isLoading && !error && !imageUrl && query && (
+            {!isLoading && !error && !imageUrl && !query && query && (
                 <div className="text-center">
                     <p className="text-gray-500">
                         No image found for &quot;{query}&quot;
